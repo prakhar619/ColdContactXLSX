@@ -11,8 +11,8 @@ from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-resume_filename = "AasthaShukla_SDE_Resume.pdf"  # Update as necessary
-resume_path = os.path.join("email_assets", resume_filename)
+resume_filename = os.path.basename(os.getenv('RESUME'))
+resume_path = os.getenv('RESUME') 
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -51,7 +51,7 @@ def send_email(sender_email, sender_password, recipient_email, subject, message,
         logger.info(f"Email sent successfully to {recipient_email}")
 
         # Log successfully sent email address to a text file
-        success_log_file = f"{company_name}_successfully_sent_emails.txt"
+        success_log_file = f"./logs/{company_name}_successfully_sent_emails.txt"
         with open(success_log_file, 'a') as file:
             file.write(recipient_email + '\n')
 

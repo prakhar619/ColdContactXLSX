@@ -1,0 +1,19 @@
+Hi {FIRST_NAME},
+
+I hope you're doing well. 
+
+My name is {YOUR_NAME}, and I came across the {POSITION} position at {COMPANY_NAME}. With graduation around the corner and a solid background in computer science, I'm genuinely enthusiastic about the possibility of joining your team.
+
+I've attached my resume for your review, so you can see firsthand the experiences and skills I bring to the table.
+
+{COMPANY_NAME} stands out to me because of its reputation for innovation and its commitment to pushing the boundaries of technology. 
+I'm eager to contribute to your team's success by leveraging my diverse skill set and passion for problem-solving.
+
+Thank you for considering my application, {FIRST_NAME}. I'd love the opportunity to chat further about how my background aligns with the needs of your team.
+
+Looking forward to hearing from you soon.
+
+Warm regards,
+
+{YOUR_NAME}
+Link: {LINK}
