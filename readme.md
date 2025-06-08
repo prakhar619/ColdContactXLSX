@@ -10,7 +10,7 @@ This project automates the process of sending cold emails from a job seeker (you
 
 1. **Open Excel Spreadsheet**: Open an Excel spreadsheet (e.g., Microsoft Excel, Google Sheets) on your computer. Use VS Code extension if you dont have either.
 
-2. **LinkedIn Search**: Visit LinkedIn (www.linkedin.com) and search for the recruiters or employees by company name. Often, you can find their profiles with their first and last names listed. Use google Chrome extension like to email address of LinkedIn users.
+2. **LinkedIn Search**: Visit LinkedIn (www.linkedin.com) and search for the recruiters or employees by company name. Often, you can find their profiles with their first and last names listed. Use google Chrome extension to find email address of LinkedIn users.
 
 3. **Record Information**: Record the first name and last name of the recruiters or employees found on LinkedIn in your Excel spreadsheet. This will ensure that you have accurate data to use in the email generation process. In the spreadsheet, create columns for "First Name," "Last Name," "Email,", "Company Name" and "Desingation" Enter the relevant information for each recruiter or employee in the respective rows. If the recruiter or employee's email address is available, enter it in the "Email" column. If not, leave the "Email" column blank.
 
@@ -32,9 +32,9 @@ This project automates the process of sending cold emails from a job seeker (you
     RESUME='<Resume PDF Path/Location of your disk>'
    ```
 
-   Adjust all the variables in .env according for your self.
+   Adjust all the variables in .env according for yourself.
 
-   **Gmail Password might not work** 
+   **Gmail Password might not work**   
    Step to Follow (Gmail)
    1. Google Account -> Manage Your Account
    2. Go to Security tab/option
